@@ -14,8 +14,8 @@ async function updateReadme(option) {
             content = '# Presiona un botón para modificar el contenido del README.';
     }
 
-    const token = 'TU_TOKEN_DE_GITHUB'; // Agrega tu token de acceso de GitHub
-    const repo = 'USUARIO/NOMBRE_DEL_REPOSITORIO'; // Cambia esto por tu usuario/repo
+    const token = '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'; // Agrega tu token de acceso de GitHub
+    const repo = 'YollolParfum/readmeGit'; // Cambia esto por tu usuario/repo
     const path = 'README.md';
     const url = `https://api.github.com/repos/${repo}/contents/${path}`;
 
